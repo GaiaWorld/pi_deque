@@ -1,0 +1,9 @@
+[package]
+name = "pi_deque"
+version = "0.1.0"
+authors = ["suncy <suncy@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+pi_slab = {path="../pi_slab"}
+pi_time = {path="../pi_time"}

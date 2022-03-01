@@ -1,9 +1,12 @@
 [package]
 name = "pi_deque"
 version = "0.1.0"
-authors = ["suncy <suncy@gmail.com>"]
-edition = "2018"
+authors = ["suncy <530739162@qq.com>"]
+edition = "2021"
+description = "Double ended queue"
+repository = "https://github.com/GaiaWorld/pi_deque.git"
+license = "MIT OR Apache-2.0"
+keywords = ["pi", "deque", "pi_deque"]
 
 [dependencies]
-pi_slab = {path="../pi_slab"}
-pi_time = {path="../pi_time"}
+pi_slab = "0.1"
